@@ -1,0 +1,28 @@
+default:
+  image: node:20-alpine
+
+stages:
+  - install
+  - test
+  - build
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+install:
+  stage: install
+  script:
+    - npm ci
+
+test:
+  stage: test
+  script:
+    - npm run test:ci
+  coverage: /All files[^\|]*\|[^\|]*\s+([\d\.]+)/
+
+build:
+  stage: build
+  script:
+    - npm run build
