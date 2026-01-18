@@ -2,8 +2,7 @@
 
 ## Présentation du projet
 
-Ce projet a été réalisé dans le cadre du cours **JSAU** à l’Université Sorbonne Paris Nord.
-Il consiste à développer une **application web avec Nuxt 3** consommant une **API Express (`jsau-apiserver`)** via la **Fetch API**.
+Ce projet consiste à développer une **application web avec Nuxt 3** consommant une **API Express (`jsau-apiserver`)** via la **Fetch API**.
 
 L’objectif est de démontrer la maîtrise des notions vues en cours :
 architecture frontend / backend, requêtes HTTP, tests automatisés et CI/CD.
