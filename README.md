@@ -49,8 +49,7 @@ export JSAU_REPOSITORY_FILE_PATH=./jsau-data
 npm run start
 ```
 
-L’API démarre sur :
-👉 `http://localhost:8081`
+L’API démarre sur : `http://localhost:8081`
 
 #### Avec Makefile (recommandé)
 
@@ -93,8 +92,7 @@ make install-frontend
 make start-frontend
 ```
 
-L’application est accessible sur :
-👉 `http://localhost:3000`
+L’application est accessible sur : `http://localhost:3000`
 
 ---
 
