@@ -1,0 +1,32 @@
+{
+    "name": "jsau-webhybrid-nuxt",
+    "version": "1.0.0",
+    "description": "Un site Nuxt 3 récupérant des fichiers HTML depuis jsau-apiserver.",
+    "scripts": {
+        "dev": "nuxt dev",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "lint": "eslint --fix .",
+        "test": "jest",
+        "test:ci": "npm run test -- --coverage"
+    },
+    "devDependencies": {
+        "nuxt": "^3.0.0",
+        "@babel/preset-env": "^7.26.9",
+        "@eslint/js": "^9.21.0",
+        "@typescript-eslint/eslint-plugin": "^8.24.1",
+        "@typescript-eslint/parser": "^8.24.1",
+        "@vue/test-utils": "^2.4.6",
+        "@vue/vue3-jest": "^29.1.0",
+        "babel-jest": "^29.7.0",
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^10.0.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "eslint-plugin-vue": "^9.32.0",
+        "globals": "^16.0.0",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0",
+        "typescript-eslint": "^8.24.1",
+        "vue": "^3.5.13"
+    }
+}
